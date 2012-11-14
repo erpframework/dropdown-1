@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+     
+<head>
+    <title>Custom Select - jQuery Plugin</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/Plugin.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#select').Plugin();
+        }); 
+    </script>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+    <select multiple style="margin-left:100px;margin-top:100px;width:300px;" name="custom" id="select">
+        <option value="default" selected>Default</option>
+        <option value="activate">Activate</option>
+        <option value="dezactivate">Dezactivate</option>
+    </select>
+</body>
+</html>

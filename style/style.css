@@ -1,0 +1,77 @@
+html, body {
+    font-family:arial;
+    font-style:bold;
+    margin:0;
+    padding:0;
+}
+a {
+    color:#666; 
+    text-decoration:none;
+}
+#select{
+    
+}
+.customSelect{
+    width:200px;
+    display: block;
+    outline:none;
+    border:1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #555;
+    position:relative;
+}
+.customSelect .title{
+    /*margin-left: 10px;*/
+    display: block;
+    width:100%;
+    border:1px solid transparent;
+}
+.customSelect .title a{
+    display: block;
+    padding: 3px 3px 3px 10px;
+    /*border-radius: 5px;
+    box-shadow: 0px 0px 5px #555;*/
+    overflow:hidden;
+    height:23px;
+}
+.customSelect ul{
+    list-style:none;
+    position: absolute;
+    margin: 0px; 
+    margin-top:-4px;
+    padding: 0px;
+    margin-left:0px;
+    background:#fff;
+    overflow: hidden;
+    display:none;
+    background: #fff;
+    width:100%;
+    /*border:1px solid #555;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top:1px solid transparent;
+    box-shadow: 0px 3px 5px #555;
+}
+.customSelect ul li{
+    margin:2;
+    padding:3px;
+    padding-left:10px;
+    cursor:hand;
+    cursor:pointer;
+    border:1px solid transparent;
+    overflow:hidden;
+    height:23px;
+    background: none;
+}
+.customSelect ul li:hover{
+    background:#fff;
+    border-radius: 5px;
+    border:1px solid #555;
+}
+.customSelect li{
+    -moz-transition: color 0.3s ease-in;
+    -webkit-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
