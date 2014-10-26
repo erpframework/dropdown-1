@@ -24,7 +24,7 @@
                     borderBottom: 'none',
                     borderBottomLeftRadius: 0,
                     borderBottomRightRadius: 0
-                })
+                });
              return this;
         },
         _hideDropdown:function(elem){
@@ -53,7 +53,7 @@
                 $this.data('originalColor','#'+Math.floor(Math.random()*16777215).toString(16))
                     .data('randomColor','#'+Math.floor(Math.random()*16777215).toString(16))
                     .css({color:$this.data('originalColor')});
-            })
+            });
 
             $('li:odd', this.elem).css({backgroundColor:_this.options.oddColor});
             $('li:even', this.elem).css({backgroundColor:_this.options.evenColor});
